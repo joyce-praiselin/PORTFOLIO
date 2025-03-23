@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Arial', ;
+    color: #000000;
+    background-image: url(./assests/a8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+a:hover {
+    color: #007BFF;
+}
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+
+header {
+    background-color: #000;
+    position: sticky;
+    top: 0 rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.nav-links a:hover {
+    color: #ffff;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.hero {
+    height: 100vh;
+   
+    color: #e242e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+footer {
+    
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border-radius: 20px;
+    height: 100%;
+  }
+  ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .btn {
+    border: 2px solid black;
+    background-color: white;
+    color: rgb(222, 203, 203);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .warning {
+    border-color: #68067e;
+    color: #68067e;
+  }
+  
+  .warning:hover {
+    background: #d3acdc;
+    color: white;
+  }
+  .skills{
+    margin: 0;
+    padding: 50px;
+  }

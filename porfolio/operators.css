@@ -1,0 +1,76 @@
+.arith{
+    background-color: hsl(272, 20%, 81%);
+    height: 230px;
+    width: 200px;
+    margin-bottom: 30px; 
+    border-radius: 5px;
+    
+}
+.assign{
+    background-color:hsl(272, 20%, 81%);;
+    text-align: center; 
+    height: 230px;
+    width: 200px;
+    margin-bottom: 30px; 
+    border-radius: 5px;
+    
+}
+.relat{
+    background-color:hsl(272, 20%, 81%); ;
+    height: 230px;
+    width: 200px;
+    border-radius: 5px;
+}
+.logi{
+    background-color:hsl(272, 20%, 81%);;
+    text-align: center; 
+    height: 230px;
+    width: 200px;
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(235, 197, 247);
+    text-align: center;
+    padding: 20px;
+    margin: 100px;
+    
+    
+}
+.flex-container{
+    display: flex;
+    flex-direction:row; /* Aligns items in a column */
+    
+    gap: 40px; /* Adds spacing between the cards */
+    
+}
+.main{
+    background-color: rgb(163, 125, 158);
+    padding: 20px;
+    border-radius: 15px;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+}
+button{
+    background-color: #ad9eb0;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px 20px;
+
+}
+a{
+    text-align: center;
+}
+header {
+    background-color:rgb(163, 125, 158);
+    color: rgb(12, 11, 11);
+    padding: 20px;
+    
+    
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}

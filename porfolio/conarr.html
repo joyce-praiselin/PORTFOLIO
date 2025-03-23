@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./conarr.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript Arrays</h1>
+      </header>
+      <main>
+        <section class="content">
+          <h2>Definition</h2>
+          <p>
+            In JavaScript, an array is a collection of elements that can hold multiple values under a single variable name. Arrays are zero-indexed and can store any data type.
+          </p>
+    
+          <h2>Operations</h2>
+          <ul>
+            <li>Add Elements: `push()`</li>
+            <li>Remove Elements: `pop()`</li>
+            <li>Access Element: `at()`</li>
+            <li>Combine: `join()`</li>
+            <li>Convert to String: `toString()`</li>
+            <li>Get Length: `length`</li>
+          </ul>
+          
+          <h2>Example</h2>
+          <pre><code>
+            // Create an array
+let fruits = ["Apple", "Banana", "Cherry"];
+console.log("Initial Array:", fruits);
+
+// Add an item
+fruits.push("Mango");
+console.log("After push:", fruits);
+
+// Remove an item
+fruits.pop();
+console.log("After pop:", fruits);
+
+// Access an element using at()
+console.log("Element at index 1:", fruits.at(1));
+
+// Combine elements into a string using join()
+let combined = fruits.join(", ");
+console.log("Combined String:", combined);
+
+// Convert the array to a string
+let asString = fruits.toString();
+console.log("Array as String:", asString);
+
+// Get the length of the array
+console.log("Length of Array:", fruits.length);
+
+              // Click the "Run Example" button to see outputs
+          </code></pre>
+          <button id="runArrayExample">Run Example</button>
+          <div id="arrayOutput"></div>
+        </main>
+          
+            
+
+
+
+
+
+
+
+
+    <script src="conarr.js"></script>
+</body>
+</html>
